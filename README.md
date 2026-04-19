@@ -74,7 +74,3 @@ mvn spring-boot:run
 mvn clean package
 java -jar target/zorrobpm-handler-examle-0.0.1-SNAPSHOT.jar
 ```
-
-## Prerequisites
-
-Make sure the `zorrobpm-job-handler-spring-boot-starter` artifact is available in your Maven repository (local or corporate Nexus/Artifactory).
