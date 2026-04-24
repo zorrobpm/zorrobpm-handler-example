@@ -19,6 +19,7 @@ public class Handler1 implements JobHandler {
 
     @Override
     public List<ProcessVariable> handleJob(JobDetailModel model) {
+        log.info("Received variables: {}", model.getVariables());
         log.info("Completing job {}", model.getJob());
         return List.of();
     }
